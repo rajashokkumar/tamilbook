@@ -3,11 +3,15 @@
 Created on Fri Feb  2 11:28:37 2024
 
 @author: asrajend
+
+Ref:  https://www.unicode.org/charts/PDF/U0B80.pdf
 """
 
 
 data = bytes([0xe0,0xae,0xa4,0xe0,0xae,0xae,0xe0,0xae,0xbf,0xe0,0xae,0xb4,0xe0,0xae,0x82])
 print(data.decode())
+
+print('\u0BA4\u0bae\u0bbf\u0bb4\u0b82')
 
 new_data="தமிழஂ"
 arr = []
